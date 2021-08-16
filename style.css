@@ -1,0 +1,259 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+*/
+.start {
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 42%;
+  top: 40%;
+  background-color: #222;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 20px 0px white;
+  border-radius: 23px;
+  padding: 20px;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+
+.car,
+.enemy {
+  width: 50px;
+  height: 100px;
+  background: transparent url("./image/player.png") center / cover no-repeat;
+  position: absolute;
+}
+
+.gameArea {
+  width: 400px;
+  height: 100%;
+  display: none;
+  position: relative;
+  margin: auto;
+  background: #222;
+  overflow: hidden;
+}
+
+.line {
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  background: #fff;
+  left: 195px;
+}
+
+.score {
+  display: none;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 0;
+  z-index: 200;
+  font-size: 2rem;
+  color: red;
+}
+.polename {
+  position: absolute;
+  left: 42%;
+  top: 40%;
+}
+.btn {
+  position: absolute;
+  width: 30px;
+  height: 21px;
+  left: 64%;
+  top: 40%;
+}
+
+.table_records {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  min-width: 150px;
+}
+
+.records {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.line_score {
+  display: block;
+  background: red;
+}
+
+.light {
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 35%;
+  top: 40%;
+  background-color: #222;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 20px 0px white;
+  border-radius: 23px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.medium {
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 47%;
+  top: 40%;
+  background-color: #222;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 20px 0px white;
+  border-radius: 23px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hard {
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 60%;
+  top: 40%;
+  background-color: #222;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 20px 0px white;
+  border-radius: 23px;
+  padding: 20px;
+  cursor: pointer;
+}
